@@ -1,0 +1,15 @@
+# Netlify build configuration for Next.js projects
+# https://docs.netlify.com/integrations/frameworks/next-js/overview/
+
+[build]
+  # Command to build your Next.js site
+  command = "npm run build"
+  
+  # Directory that contains the built assets
+  # For Next.js, this is typically .next, but the plugin handles this.
+  # Netlify's Next.js runtime will automatically use the correct output.
+  publish = ".next"
+
+# Plugin to enable Next.js features on Netlify
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
