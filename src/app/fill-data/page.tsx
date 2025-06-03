@@ -122,13 +122,13 @@ function FillDataContent() {
       setCurrentDeviceRowOptions(ROW_OPTIONS_THERMOMETER);
       setUnit('°C');
       setInputPlaceholder("Напр. 36.6");
-      setSerialNumberPlaceholder("Напр. М1024700123");
+      setSerialNumberPlaceholder("Напр. TM10240700123");
       setMeasurementPrecision(2);
     } else if (deviceParam === 'alcotest') {
       setCurrentDeviceRowOptions(ROW_OPTIONS_ALCOTEST);
       setUnit('мг/л');
       setInputPlaceholder("Напр. 0.150");
-      setSerialNumberPlaceholder("Напр. IRO4J1234");
+      setSerialNumberPlaceholder("Напр. AIRO4J1234");
       setMeasurementPrecision(3);
     }
 
@@ -656,4 +656,5 @@ export default function FillDataPage() {
     
 
     
+
 

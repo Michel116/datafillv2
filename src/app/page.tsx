@@ -35,10 +35,10 @@ const deviceOptions: AppOption[] = [
   },
   {
     id: 'alcotest',
-    name: 'Алкотестер е-200',
+    name: 'Алкотестер Е-200',
     icon: Smartphone,
     description: 'Ввод данных для алкотестеров.',
-    href: '/fill-data?device=alcotest&deviceName=Алкотестер%20е-200',
+    href: '/fill-data?device=alcotest&deviceName=Алкотестер%20Е-200',
     requiresVerifierName: true,
   },
 ];
@@ -210,3 +210,4 @@ export default function HomePage() {
   );
 }
     
+

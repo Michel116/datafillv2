@@ -57,7 +57,7 @@ export default function RootLayout({
 
     const timer = setTimeout(() => {
       setIsInitialAppLoad(false);
-    }, 1000); 
+    }, 1400); 
 
     return () => clearTimeout(timer);
   }, []);
@@ -70,7 +70,6 @@ export default function RootLayout({
         </head>
         <body className="font-sans antialiased">
           <div className="flex flex-col items-center justify-center min-h-screen bg-background text-center p-4">
-            {/* Removed "Вас Приветствует:" text */}
             <Flower className="h-16 w-16 text-primary mb-4 animate-bounce" /> 
             <div className="flex items-center justify-center mb-2">
               <h1 className="text-4xl font-bold text-primary">DataFill</h1>
